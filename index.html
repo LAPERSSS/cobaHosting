@@ -4,8 +4,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kelas</title>
+    <style>
+      body {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 7vh;
+      }
+    </style>
   </head>
   <body>
-    KONTOL
+    <div>
+      <h1 class="gg">IKI GANTENG</h1>
+      <button onClick="ganti()">PENCET</button>
+    </div>
   </body>
+  <script>
+    function ganti() {
+      document.querySelector("h1").innerHTML = "TAPI BOONG";
+    }
+  </script>
 </html>
